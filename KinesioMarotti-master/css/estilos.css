@@ -49,28 +49,9 @@
     
 }
 
-.hero__h2 {
-    font-family: "Montserrat", Sans-serif;
-    color: var( --e-global-color-primary );
-    font-size: 25px;
-    font-weight: 600;
-    text-transform: uppercase;
-    line-height: 1.2em;
-}
 
 
-.hero__p {
-    font-size: 20px;
-    padding-top: 0.5rem;
-}
 
-.hero__button {
-    background-color: transparent;
-    color: rgb(87, 78, 78);
-    padding-top: 1rem;
-    display: flex;
-    font-size: 18px;
-}
 
 .index__section {
     background: linear-gradient(to bottom, rgb(91, 91, 219), rgb(175, 187, 190));
@@ -103,89 +84,6 @@
 }
 
 /* Aca termina el Main*/
-
-.servicios {
-    width: 100%;
-    background-color: rgb(71, 45, 45);
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    padding: 3rem 0rem 2rem 3rem;
-    grid-gap: 40px;
-    color: white;
-    opacity: 1;
-    transition: 0.3s;
-    
-}
-
-.widget__index1{
-    width: 15rem;
-    height: 14rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../Imagenes/Pie\ y\ tobillo.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5%;
-}
-
-.widget__index2{
-    width: 15rem;
-    height: 14rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../Imagenes/Rodilla.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5%;
-}
-.widget__index3{
-    width: 15rem;
-    height: 14rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../Imagenes/EjercicioIndex.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5%;
-}
-
-
-
-.aboutUs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem 4rem;
-}
-
-.aboutUs h2 {
-    font-size: 40px;
-}
-
-.objetivo__p {
-    width: 70%;
-    padding: 1rem;
-}
-
- div .sobreNosotros {
-   background-color: rgb(205, 35, 35); 
-   color: white;
-   width: 10rem;
-   height: 3rem;
-   border-radius: 5%;
-   grid-column: 2;
-}
-
-
-        
-    
     body {
         background-color: rgb(224, 214, 214);
     }
@@ -211,6 +109,8 @@
     align-items: center;
 }
 
+
+/* ARRANCA KINESIOLOGOS */
 .kinesiologos__main {
     padding: 0 0.5rem;
 }
@@ -255,94 +155,105 @@
 }
 
 
+/* TERMINA KINESIOLOGOS*/
     
-/*   CONTACTANOS   */
+/*   SERVICIOS  */
 
-
-.contactanos__title{
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.contactanos__subtitle {
+.servicios__section {
+    background-image: url(../Imagenes/Servicios\ main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 3% 10%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 54px;
 }
 
-.contactanos__div {
-    height: 20rem;
-    width: 23rem;
-    padding: 2rem;
-    border-radius: 5%;
-    background-color: whitesmoke;
+.servicioscontainer{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1.5rem 0rem;
 }
 
-.contactanos__ul {
-    list-style: none;   
+
+
+.servicioscard{
+    height: auto; 
+    width: 22rem;
+    background-color: black;
+    opacity: 1;
+    cursor: pointer;
 }
 
-.contactanos{
+.servicioscard:hover img {
+    opacity:0.5;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+
+/*  Secciónes servicios   */
+.servicios__pie {
+    background-image: url(../Imagenes/servicios1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 54px;
+   text-transform: uppercase;
+}
+
+.pie__text{
     display: flex;
     flex-direction: column;
+    padding: 2rem 1.5rem;
     justify-content: space-between;
+    font-size: 15px;
+    font-family: var( --e-global-typography-text-font-family ), Sans-serif; importante:  !important;
 }
 
+/*  TERMINADA PAGINA SERVICIOS */
 
-.contactanos__list{
-   margin-top: 3rem;
-   font-weight: 600;
-   border-style: solid;
-   border-width: 3.5px;
-   border-radius: 5%;
-   border-color: rgb(43, 110, 133);
-   
-   
-   
+
+
+/* COMIENZA EDUCACIÓN  */
+
+.educacion__section {
+        background-image: url(../Imagenes/educationMain.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.795);
+        font-size: 54px;
+    }
+
 }
 
-.contactanos__list2 {
-    margin-top: 1rem;
-    list-style: none;
-    background-color: rgba(196, 160, 160, 0.571);
-}
+/*  TERMINA EDUCACIÓN  */
 
-
-/*  TERMINADA PAGINA CONTACTANOS */
-
-
-
-/* COMIENZA SEDES  */
-
-/* SEDES  */
-
-.sedes {
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.sede__ul{
-    margin-top: 2rem;
-    display:flex;
-    justify-content: space-around;
-    font-size: 1.2rem;
-   
-}
-
-.sede_img {
-    height: 40vh;
-    width: 40vh;
-    border-radius: 5%;
-    margin-top: 1rem;
-    
-}
-
-.sede__nav {
-    display: flex;
-    justify-content: space-around;
-}
 
 
 /*MEDIA QUERIES*/
@@ -356,14 +267,4 @@
         gap: 1.5rem
     }
 
-}
-
-@media screen and (max-width: 1071px) {
-
-    .sede__nav {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-    
 }
