@@ -23,7 +23,7 @@
     max-width: 130px;
 }
 
-.header_logo {
+.header__p {
     color:white;
     display: flex;
     align-items: center;
@@ -45,28 +45,9 @@
     justify-content: flex-start;
     align-items: center;
     padding: 1.5rem;
-    color: rgb(133, 38, 38);
-    
+    color: rgb(133, 38, 38);    
 }
 
-
-
-
-
-.index__section {
-    background: linear-gradient(to bottom, rgb(91, 91, 219), rgb(175, 187, 190));
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:flex-end;
-    padding: 2rem;
-}
-
-.index__button2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
 
 .justify-content-center {
     gap: 1rem;
@@ -84,15 +65,12 @@
 }
 
 /* Aca termina el Main*/
-    body {
-        background-color: rgb(224, 214, 214);
-    }
     
     .footer__img {
-        height: 6.25rem; important! 
+        height: 6.25rem; ; 
     }    
 
-    .bd-footer {
+    .footer {
         display: flex;
         height: 22vh;
         flex-direction: column;
@@ -103,15 +81,11 @@
         bottom: 0;
     }
 
-.turnos_mapa{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 
 /* ARRANCA KINESIOLOGOS */
-.kinesiologos__main {
+.kinesiologos {
     padding: 0 0.5rem;
 }
 
@@ -206,8 +180,7 @@
 
 
 /*  Secciónes servicios   */
-.servicios__pie {
-    background-image: url(../Imagenes/servicios1.jpg);
+.subservicios_portada {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -221,13 +194,13 @@
    text-transform: uppercase;
 }
 
-.pie__text{
+.subservicios__parrafo{
     display: flex;
     flex-direction: column;
     padding: 2rem 1.5rem;
     justify-content: space-between;
     font-size: 15px;
-    font-family: var( --e-global-typography-text-font-family ), Sans-serif; importante:  !important;
+    font-family: var( --e-global-typography-text-font-family ), Sans-serif; 
 }
 
 /*  TERMINADA PAGINA SERVICIOS */
@@ -250,9 +223,15 @@
         font-size: 54px;
     }
 
-}
+
 
 /*  TERMINA EDUCACIÓN  */
+
+.turnos_mapa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 

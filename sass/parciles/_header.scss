@@ -1,0 +1,19 @@
+.header {
+    background-color: rgb(17, 15, 15);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0%;
+    &__p {
+        color:white;
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+    }
+}
+
+.logo {
+    max-width: 130px;
+}

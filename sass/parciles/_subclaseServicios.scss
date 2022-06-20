@@ -1,0 +1,22 @@
+.subservicios_portada {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 54px;
+   text-transform: uppercase;
+}
+
+.subservicios__parrafo{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+    justify-content: space-between;
+    font-size: 15px;
+    font-family: var( --e-global-typography-text-font-family ), Sans-serif; 
+}

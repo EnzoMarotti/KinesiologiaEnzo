@@ -1,0 +1,41 @@
+.kinesiologos {
+    padding: 0 0.5rem;
+    .kinesiologos__title {
+        text-align: center;
+        margin-top:2rem ;
+    }
+    .kinesiologos__section {
+        margin: 2.5rem 0.5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.5rem;
+        .kinesiologos__nav {
+            display: flex;
+            padding: 1rem 0.5rem;
+            flex-direction: column;
+            align-items: center;
+            border-style: solid;
+            border-color: grey;
+            border-radius: 5%;
+            border-width: thin;
+            background-color: rgb(206, 202, 197);
+            
+            .img__kinesio {
+                height: 35vh;
+                width: 30vh;
+                border-radius: 5%;
+                margin-top: 1rem;
+            }
+            .kinesiologos__p {
+                margin-top: 1.5rem;
+                display: flex;
+            }
+        }
+    }
+}
+
+
+
+
+
+

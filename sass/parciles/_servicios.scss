@@ -1,0 +1,43 @@
+.servicios__section {
+    background-image: url(../Imagenes/Servicios\ main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 54px;
+}
+
+.servicioscontainer{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1.5rem 0rem;
+    .servicioscard{
+        height: auto; 
+        width: 22rem;
+        background-color: black;
+        opacity: 1;
+        cursor: pointer;
+        .servicioscard:hover img {
+            opacity:0.5;
+        }
+        .card-title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            font-size: 30px;
+            color: rgb(0, 0, 0);
+        }
+    }
+}
+
+
+
+
