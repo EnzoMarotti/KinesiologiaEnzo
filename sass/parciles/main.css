@@ -134,9 +134,6 @@
   opacity: 1;
   cursor: pointer;
 }
-.servicioscontainer .servicioscard .servicioscard:hover img {
-  opacity: 0.5;
-}
 .servicioscontainer .servicioscard .card-title {
   display: flex;
   justify-content: center;
@@ -144,6 +141,10 @@
   height: 100%;
   font-size: 30px;
   color: rgb(0, 0, 0);
+}
+
+.servicioscard:hover img {
+  opacity: 0.5;
 }
 
 .subservicios_portada {
@@ -170,7 +171,7 @@
 }
 
 .educacion__section {
-  background-image: url(../Imagenes/educationMain.jpg);
+  background-image: url(../../../Imagenes/educationMain.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

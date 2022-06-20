@@ -24,20 +24,20 @@
         background-color: black;
         opacity: 1;
         cursor: pointer;
-        .servicioscard:hover img {
-            opacity:0.5;
-        }
         .card-title {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100%;
             font-size: 30px;
+       
             color: rgb(0, 0, 0);
         }
     }
 }
-
+.servicioscard:hover img {
+    opacity:0.5;
+}
 
 
 
