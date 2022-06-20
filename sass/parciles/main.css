@@ -27,7 +27,7 @@
 }
 
 .main {
-  background-image: url(../Imagenes/indexPrincipal.jpg);
+  background-image: url(../../Imagenes/indexPrincipal.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,7 +107,7 @@
 }
 
 .servicios__section {
-  background-image: url(../Imagenes/Servicios\ main.jpg);
+  background-image: url(../../Imagenes/Servicios\ main.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
